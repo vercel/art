@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <linearGradient id="c" x1="47.952%" x2="47.952%" y1="97.595%" y2="0%">
+      <stop stop-color="#FFB300" offset="0%"/>
+      <stop stop-color="#DD3939" offset="61.372%"/>
+      <stop stop-color="#FF1BB4" offset="100%"/>
+    </linearGradient>
+    <path id="a" d="M0,4.99424261 C0,2.23599858 2.2402674,0 4.99531509,0 L59.0046849,0 C61.7635213,0 64,2.22982375 64,4.99424261 L64,51.0057574 C64,53.7640014 61.7597326,56 59.0046849,56 L4.99531509,56 C2.23647875,56 0,53.7701762 0,51.0057574 L0,4.99424261 Z"/>
+    <mask id="d" width="64" height="56" x="0" y="0" fill="white">
+      <use xlink:href="#a"/>
+    </mask>
+    <path id="b" d="M0,4.99424261 C0,2.23599858 2.2402674,0 4.99531509,0 L59.0046849,0 C61.7635213,0 64,2.22982375 64,4.99424261 L64,51.0057574 C64,53.7640014 61.7597326,56 59.0046849,56 L4.99531509,56 C2.23647875,56 0,53.7701762 0,51.0057574 L0,4.99424261 Z"/>
+    <mask id="e" width="64" height="56" x="0" y="0" fill="white">
+      <use xlink:href="#b"/>
+    </mask>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <g transform="translate(0 4)">
+      <use fill="#000000" stroke="url(#c)" stroke-width="6" mask="url(#d)" xlink:href="#a"/>
+      <rect width="9.622" height="1.874" x="19.037" y="20.894" fill="#FFFFFF"/>
+      <polygon fill="#FFFFFF" points="9.573 9.2 5.62 7.109 8.487 0 .016 7.635 3.738 10.153 1.101 16.836" transform="translate(6.53 6.838)"/>
+    </g>
+    <g transform="translate(0 4)">
+      <use fill="#000000" stroke="url(#c)" stroke-width="6" mask="url(#e)" xlink:href="#b"/>
+      <rect width="9.622" height="1.874" x="19.037" y="20.894" fill="#FFFFFF"/>
+      <polygon fill="#FFFFFF" points="9.573 9.2 5.62 7.109 8.487 0 .016 7.635 3.738 10.153 1.101 16.836" transform="translate(6.53 6.838)"/>
+    </g>
+  </g>
+</svg>
